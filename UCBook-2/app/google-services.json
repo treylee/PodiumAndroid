@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "110278539473",
+    "firebase_url": "https://ucbok-95490.firebaseio.com",
+    "project_id": "ucbok-95490",
+    "storage_bucket": "ucbok-95490.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110278539473:android:2ababba836879eb5",
+        "android_client_info": {
+          "package_name": "com.example.trieveoncooper.ucbook.live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110278539473-b1jnpp0qkd66d7vmgd05ant3ci4v8v02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trieveoncooper.ucbook.live",
+            "certificate_hash": "9f8505903a8dde5176da168d7a68b644d825bd10"
+          }
+        },
+        {
+          "client_id": "110278539473-elflvi4cu3bee4f22p4e7vte402jh1u9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHG__TS70-8aFcL3ld3lQBTpwQtn5wZcc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110278539473-elflvi4cu3bee4f22p4e7vte402jh1u9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110278539473:android:d95b69afcd9a79b2",
+        "android_client_info": {
+          "package_name": "com.example.trieveoncooper.ucbook.inmemory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110278539473-74nnqee7rm397p93g2mu7tqi3k6oj5io.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trieveoncooper.ucbook.inmemory",
+            "certificate_hash": "9f8505903a8dde5176da168d7a68b644d825bd10"
+          }
+        },
+        {
+          "client_id": "110278539473-elflvi4cu3bee4f22p4e7vte402jh1u9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHG__TS70-8aFcL3ld3lQBTpwQtn5wZcc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110278539473-elflvi4cu3bee4f22p4e7vte402jh1u9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

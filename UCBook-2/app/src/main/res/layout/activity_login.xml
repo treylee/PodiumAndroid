@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.trieveoncooper.ucbook.activities.Login">
+
+    <VideoView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/bgVideoView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="567dp"
+        android:id="@+id/v_guideline1"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="58dp"
+        app:layout_constraintGuide_percent="0.15104167"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="567dp"
+        android:id="@+id/v_guideline2"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="329dp"
+        app:layout_constraintGuide_percent="0.8567708"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="567dp"
+        android:id="@+id/v_guideline3"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="118dp"
+        app:layout_constraintGuide_percent="0.30729166"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_guideline1"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="267dp" />
+
+    <EditText
+        android:id="@+id/emailBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_person_white_24dp"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint=" Username"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColorHint="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/passwordField"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <View
+        android:id="@+id/emailField"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+
+    <EditText
+        android:id="@+id/passwordBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_lock_white_24dp"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="16dp"
+        android:textColorHint="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318" />
+
+    <View
+        android:id="@+id/passwordField"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+
+    <Button
+        android:id="@+id/fbLoginButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:alpha="0.80"
+        android:background="@drawable/fb_button_bg"
+        android:drawableLeft="@drawable/fb_logo"
+        android:text="Facebook Login"
+        android:textColor="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintTop_toTopOf="@+id/h_guideline1" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/other_acc_button_bg"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/orImageView" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/or"
+        android:id="@+id/orImageView"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/fbLoginButton"
+        android:layout_marginTop="8dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline3"/>
+
+    <TextView
+        android:id="@+id/firstTermTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="Havent Registered? Check Here"
+        android:textColor="#80ffffff"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/radioButton"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton" />
+
+    <TextView
+        android:id="@+id/secTermTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:text="Our Mission!"
+        android:textColor="#80ffffff"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline3"
+        app:layout_constraintLeft_toRightOf="@+id/v_guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+
+    <Button
+        android:id="@+id/fingerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="FINGERPRINT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/googleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Google SignIn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/labelMsg"
+        android:layout_width="283dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:text="Display"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#80ffffff"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.639"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordField"
+        app:layout_constraintVertical_bias="0.212" />
+
+
+    app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>
+
+

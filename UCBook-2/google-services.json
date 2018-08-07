@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1099160631159",
+    "firebase_url": "https://iosbookapp.firebaseio.com",
+    "project_id": "iosbookapp",
+    "storage_bucket": "iosbookapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099160631159:android:2ababba836879eb5",
+        "android_client_info": {
+          "package_name": "com.example.trieveoncooper.ucbook.live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099160631159-c26ecqliu4dr2lagahae9anj1bksm9h1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDveJnEYkqOHyjiaS9yXzI4esCCAMGzuIQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
